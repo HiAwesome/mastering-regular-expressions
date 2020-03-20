@@ -14,7 +14,7 @@ chomp($input);       # 去掉后面的换行符
 # Enter a temperature in Celsius:
 # 22C
 # 22.00 C is 71.60 F
-if ($input =~ m/^([-+]?[0-9]+)([CF])$/) {
+if ($input =~ m/^([-+]?[0-9]+(?:\.[0-9]*))([CF])$/) {
     # 如果程序运行到此，则已经匹配。$1 保存数字，$2 保存 C 或者 F
     my $InputNum = $1;
     my $type = $2;
