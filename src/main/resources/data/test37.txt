@@ -1,0 +1,8 @@
+<!-- Nav bar -->
+<TD>
+<A HREF="/home"><IMG SRC="/images/home.gif"></A>
+<IMG SRC="/images/spacer.gif"> 
+<A HREF="/search"><IMG SRC="/images/search.gif"></A>
+<IMG SRC="/images/spacer.gif"> 
+<A HREF="/help"><IMG SRC="/images/help.gif"></A>
+</TD>
