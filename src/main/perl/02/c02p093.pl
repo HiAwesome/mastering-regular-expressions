@@ -21,7 +21,8 @@ if ($input =~ m/^([-+]?[0-9]+(?:\.[0-9]*))\s*([CF])$/i) {
     my $celsius;
     my $fahrenheit;
 
-    if ($type eq "C") {
+    # 匹配大写 C 或者小写 c
+    if ($type =~ m/c/i) {
         $celsius = $InputNum;
         $fahrenheit = ($celsius * 9 / 5) + 32;
     }
